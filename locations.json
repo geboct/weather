@@ -1,0 +1,16 @@
+[
+    {
+        "favorite": true,
+        "id": 1,
+        "latitude": 40.7128,
+        "longitude": -74.0059,
+        "name": "New York City"
+    },
+    {
+        "favorite": false,
+        "id": 3,
+        "latitude": 41.8781,
+        "longitude": -87.6298,
+        "name": "Chicago"
+    }
+]
