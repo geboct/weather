@@ -1,0 +1,6 @@
+COMMAND TO RUN APPLICATION
+
+
+g++ -o main main.cpp WeatherDataApplication.cpp WeatherData.cpp Location.cpp -lcurl
+
+./main
