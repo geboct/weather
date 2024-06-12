@@ -1,30 +1,27 @@
 #include <iostream>
-#include "WeatherDataApplication.h"
-
-int main() {
-    std::string apiKey = "0888ef6505339c6bf654fde9bbd01b3e";
-    WeatherDataApplication app(apiKey);
-
-    app.addLocation(1, "Accra", 40.7128, -74.0060);
-    app.addLocation(2, "Takoradi", 34.0522, -118.2437);
-
-    app.setFavouriteLocation(1);
-
-    app.fetchWeatherForecast(1);
-    app.displayWeatherData();
-
-    app.exportWeatherDataToCSV("weather_data.csv");
-    app.exportWeatherDataToJSON("weather_data.json");
-
-    return 0;
-}
-
-
-
-
-#include <iostream>
 #include <string>
 #include "WeatherDataApplication.h"
+// int main() {
+//     std::string apiKey = "0888ef6505339c6bf654fde9bbd01b3e";
+//     WeatherDataApplication app(apiKey);
+
+//     app.addLocation(1, "Accra", 40.7128, -74.0060);
+//     app.addLocation(2, "Takoradi", 34.0522, -118.2437);
+
+//     app.setFavouriteLocation(1);
+
+//     app.fetchWeatherForecast(1);
+//     app.displayWeatherData();
+
+//     app.exportWeatherDataToCSV("weather_data.csv");
+//     app.exportWeatherDataToJSON("weather_data.json");
+
+//     return 0;
+// }
+
+
+
+
 
 int main() {
     std::string apiKey = "0888ef6505339c6bf654fde9bbd01b3e";
